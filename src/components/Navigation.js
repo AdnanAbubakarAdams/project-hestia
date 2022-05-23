@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "./Logo";
+import Button from "./Button";
 
 const Navigation = () => {
   return (
@@ -14,7 +15,7 @@ const Navigation = () => {
           <li>Team</li>
           <li>Faq</li>
         </ul>
-        <h2>Button</h2>
+        <Button text="Connect Wallet" link="" />
       </div>
     </section>
   );
