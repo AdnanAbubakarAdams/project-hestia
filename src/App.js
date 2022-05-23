@@ -7,6 +7,7 @@ import Team from "./components/Team";
 import Faq from "./components/Faq";
 import "./App.css";
 import {light} from './myStyle/Themes'
+import Navigation from "./components/Navigation";
 // import GlobalStyles from "./myStyle/GlobalStyle";
 
 function App() {
@@ -14,13 +15,13 @@ function App() {
     <div className="App">
       <section theme={light}>
       <h1>HESTIA</h1>
+      <Navigation />
       <About />
       <Home />
       <Roadmap />
       <Showcase />
       <Team />
       <Faq />
-      {/* <GlobalStyles /> */}
       </section>
 
     </div>

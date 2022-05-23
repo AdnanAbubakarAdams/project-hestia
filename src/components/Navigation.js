@@ -1,15 +1,23 @@
-import React from 'react'
+import React from "react";
+import Logo from "./Logo";
 
 const Navigation = () => {
   return (
     <section>
-        <NavBar>
-            <h2>Logo</h2>
-            <h2>Menu</h2>
-            <h2>Button</h2>
-        </NavBar>
+      <div className="Nav">
+        <Logo />
+        <ul className="Menu">
+          <li>Home</li>
+          <li>Roadmap</li>
+          <li>About</li>
+          <li>Showcase</li>
+          <li>Team</li>
+          <li>Faq</li>
+        </ul>
+        <h2>Button</h2>
+      </div>
     </section>
-  )
-}
+  );
+};
 
-export default Navigation
+export default Navigation;
