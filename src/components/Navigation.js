@@ -15,7 +15,7 @@ const Navigation = () => {
           <button className="one">Team</button>
           <button className="one">Faq</button> 
         {/* {/* </ul> */}
-        <Button text="Connect Wallet" link="" />
+        <Button link="" />
       </div>
     </section>
   );
