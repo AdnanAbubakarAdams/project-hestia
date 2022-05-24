@@ -7,14 +7,14 @@ const Navigation = () => {
     <section>
       <div className="Nav">
         <Logo />
-        <ul className="Menu">
-          <li>Home</li>
-          <li>Roadmap</li>
-          <li>About</li>
-          <li>Showcase</li>
-          <li>Team</li>
-          <li>Faq</li>
-        </ul>
+        {/* <ul className="Menu"> */}
+          <button className="one">Home</button>
+          <button className="one">Roadmap</button>
+          <button className="one">About</button>
+          <button className="one">Showcase</button>
+          <button className="one">Team</button>
+          <button className="one">Faq</button> 
+        {/* {/* </ul> */}
         <Button text="Connect Wallet" link="" />
       </div>
     </section>
